@@ -229,7 +229,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <a class="head_btn1" href="tel:+1-201-502-3939"><span>Call Us:</span>
     +1-201-502-3939</a>
     <a class="head_btn2 popup-btn" href="javascript:;">Get a Free Quote</a>&nbsp;&nbsp;&nbsp;&nbsp;
-    <a class="head_btn2 popup-btn" href="#">Packages</a>
+    <a class="head_btn2 popup-btn" href="./packages.html">Packages</a>
     </div>
     </div>
     </div>
@@ -350,20 +350,20 @@ Drop us a message
 <div class="col-sm-12 col-md-6 col-lg-6">
 <div class="sec6_right">
 <div class="contact_form">
-<form action="https://www.americanwebbuilders.com/mail" method="post">
+<form action="./contact-form.php" method="post">
 <div class="row">
 <div class="col-sm-12 col-md-6">
-<input type="text" name="n" id="name" placeholder="Enter Your Name*" required>
+<input type="text" name="name" id="name" placeholder="Enter Your Name*" required>
 </div>
 <div class="col-sm-12 col-md-6">
-<input type="email" name="e" id="email" placeholder="Enter Email Address*" required>
+<input type="email" name="email" id="email" placeholder="Enter Email Address*" required>
 </div>
 <div class="col-sm-12 col-md-12">
-<input type="number" name="p" id="phone" placeholder="Enter Phone Number*" required>
+<input type="number" name="phone" id="phone" placeholder="Enter Phone Number*" required>
 </div>
 <div class="col-sm-12 col-md-12">
 
-<textarea name="m" id="msg" placeholder="Write a message"></textarea>
+<textarea name="msg" id="msg" placeholder="Write a message"></textarea>
 </div>
 <div class="col-sm-12 col-md-12">
 <div class="g-recaptcha" data-sitekey="6LdfuiEpAAAAAILMSp-ut9j8aMAohUZ-3f27yBYh"></div>
@@ -454,19 +454,19 @@ Now <i class="fa-solid fa-arrow-right-long"></i></button>
   <p>Fill out the form below, and we’ll get back to you at the earliest possible.</p>
   </div>
   <div class="ft_form">
-  <form action="#" method="post">
+  <form action="./footer-form.php" method="post">
   <div class="row">
   <div class="col-sm-12 col-md-6">
-  <input type="text" name="n" id="name" placeholder="Enter Your Name*" required>
+  <input type="text" name="name" id="name" placeholder="Enter Your Name*" required>
   </div>
   <div class="col-sm-12 col-md-6">
-  <input type="email" name="e" id="email" placeholder="Enter Email Address*" required>
+  <input type="email" name="email" id="email" placeholder="Enter Email Address*" required>
   </div>
   <div class="col-sm-12 col-md-12">
-  <input type="number" name="p" id="phone" placeholder="Enter Phone Number*" required>
+  <input type="number" name="phone" id="phone" placeholder="Enter Phone Number*" required>
   </div>
   <div class="col-sm-12 col-md-12">
-  <input type="text" name="m" id="msg" placeholder="Write a message*" required>
+  <input type="text" name="msg" id="msg" placeholder="Write a message*" required>
   </div>
   <div class="col-sm-12 col-md-12">
   <div class="g-recaptcha" data-sitekey="6LdfuiEpAAAAAILMSp-ut9j8aMAohUZ-3f27yBYh"></div>
@@ -598,17 +598,18 @@ Now <i class="fa-solid fa-arrow-right-long"></i></button>
   </div>
   <!-- Footer End -->
 
+<!-- Pop Up Form Start -->
 <div class="modal modal-one" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 <div style="display: inline-block;" class="balti_popup" id="balti_popup">
 <h3>We are here to help!</h3>
 <p>Sign up Now To Avail Amazing Discounts</p>
-<form action="https://www.americanwebbuilders.com/mail" method="post" class="validate-balti_popup">
+<form action="./get-quote.php" method="post" class="validate-balti_popup">
 <div class="row">
 <div class="col-md-12">
 <ul>
 <li>
 <i class="fa fa-user" aria-hidden="true"></i>
-<input type="text" class="required" placeholder="Full Name *" name="n" required="required">
+<input type="text" class="required" placeholder="Full Name *" name="name" required="required">
 </li>
 </ul>
 </div>
@@ -616,7 +617,7 @@ Now <i class="fa-solid fa-arrow-right-long"></i></button>
 <ul>
 <li>
 <i class="fa fa-envelope" aria-hidden="true"></i>
-<input type="email" class="required email" placeholder="Email Address *" name="e" required="required">
+<input type="email" class="required email" placeholder="Email Address *" name="email" required="required">
 </li>
 </ul>
 </div>
@@ -624,7 +625,7 @@ Now <i class="fa-solid fa-arrow-right-long"></i></button>
 <ul>
 <li>
 <i class="fa fa-phone" aria-hidden="true"></i>
-<input type="number" class="required number" minlength="10" placeholder="Phone No. *" name="p" required="required">
+<input type="number" class="required number" minlength="10" placeholder="Phone No. *" name="phone" required="required">
 </li>
 </ul>
 </div>
@@ -632,7 +633,7 @@ Now <i class="fa-solid fa-arrow-right-long"></i></button>
 <ul>
 <li>
 <i class="fa fa-paper-plane" aria-hidden="true"></i>
-<textarea name="m" class="required" required="required" placeholder="To help us understand better enter a brief description of your project."></textarea>
+<textarea name="msg" class="required" required="required" placeholder="To help us understand better enter a brief description of your project."></textarea>
 </li>
 </ul>
 </div>
@@ -674,7 +675,7 @@ Now <i class="fa-solid fa-arrow-right-long"></i></button>
 <input type="hidden" name="country" value>
 <input type="hidden" name="region" value>
 <input type="hidden" name="city" value>
-<input type="hidden" name="pageurl" value="contact-us.html">
+<input type="hidden" name="pageurl" value="index.html">
 </li>
 </ul>
 </div>
@@ -683,6 +684,7 @@ Now <i class="fa-solid fa-arrow-right-long"></i></button>
 <button data-fancybox-close class="fancybox-close-small close"></button>
 </div>
 </div>
+<!-- Pop Up Form End -->
 
 <script src="assets/js/jquery-3.6.2.js" type="30caa483ee3a3025191912ea-text/javascript"></script>
 <script src="assets/js/bootstrap.min.js" type="30caa483ee3a3025191912ea-text/javascript"></script>
